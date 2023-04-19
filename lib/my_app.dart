@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mest/screens/homepage.dart';
+import 'package:mest/screens/bottom_sheet.dart';
+import 'package:mest/screens/listpage.dart';
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(title: 'Flutter training'),
+      home: const BottomSheetApp(),
     );
   }
 }
